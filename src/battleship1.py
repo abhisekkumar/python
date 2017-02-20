@@ -40,4 +40,6 @@ else:
         board[guess_row][guess_col] = "X"
     for turn in range(4):
         print (turn + 1)
+        if (turn == 3):
+            print "Game Over"
     print_board(board)
