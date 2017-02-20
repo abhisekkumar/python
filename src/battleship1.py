@@ -40,5 +40,4 @@ else:
         board[guess_row][guess_col] = "X"
     for turn in range(4):
         print (turn + 1)
-    # Print (turn + 1) here!
     print_board(board)
